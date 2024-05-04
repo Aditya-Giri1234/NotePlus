@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NotePlus" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.NotePlus" parent="Base.Theme.NotePlus" />
+    <style name="Theme.Search" parent="Theme.NotePlus">
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/grey</item>
+    </style>
+
+    <style name="Theme.Bottom" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="background">@android:color/transparent</item>
+    </style>
+</resources>
